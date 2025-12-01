@@ -49,6 +49,7 @@
   <ItemGroup>
 
 
+
     <Compile Include="Datos.cs" />
     <Compile Include="Datos.Designer.cs">
       <DependentUpon>Datos.cs</DependentUpon>
@@ -62,6 +63,10 @@
     <Compile Include="FormE.Designer.cs">
       <DependentUpon>FormE.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormB.cs" />
+    <Compile Include="FormB.Designer.cs">
+      <DependentUpon>FormB.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs" />
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -72,6 +77,7 @@
   <ItemGroup>
 
 
+
     <EmbeddedResource Include="Datos.resx">
       <DependentUpon>Datos.cs</DependentUpon>
     </EmbeddedResource>
@@ -79,12 +85,12 @@
     <EmbeddedResource Include="Formulario4.resx">
       <DependentUpon>Formulario4.cs</DependentUpon>
     </EmbeddedResource>
-
-
     <EmbeddedResource Include="FormE.resx">
       <DependentUpon>FormE.cs</DependentUpon>
     </EmbeddedResource>
-
+    <EmbeddedResource Include="FormB.resx">
+      <DependentUpon>FormB.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
