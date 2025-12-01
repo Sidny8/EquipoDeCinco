@@ -115,6 +115,7 @@ namespace TrabajoEnEquipo
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
+
 			this.Name = "MainForm";
 			this.Text = "TrabajoEnEquipo";
 			this.ResumeLayout(false);
@@ -126,5 +127,6 @@ namespace TrabajoEnEquipo
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Button button1;
+
 	}
 }
