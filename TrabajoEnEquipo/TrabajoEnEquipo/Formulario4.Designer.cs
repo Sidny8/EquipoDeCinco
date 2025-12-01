@@ -266,7 +266,6 @@ namespace TrabajoEnEquipo
 			this.lblfechaac.Name = "lblfechaac";
 			this.lblfechaac.Size = new System.Drawing.Size(120, 23);
 			this.lblfechaac.TabIndex = 15;
-			
 			// 
 			// btnregistrar
 			// 
