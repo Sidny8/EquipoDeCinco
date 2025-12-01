@@ -296,7 +296,7 @@ namespace TrabajoEnEquipo
 			this.btnsalir.Name = "btnsalir";
 			this.btnsalir.Size = new System.Drawing.Size(97, 23);
 			this.btnsalir.TabIndex = 18;
-			this.btnsalir.Text = "SALIR";
+			this.btnsalir.Text = "ATRAS";
 			this.btnsalir.UseVisualStyleBackColor = true;
 			this.btnsalir.Click += new System.EventHandler(this.BtnsalirClick);
 			// 
@@ -366,6 +366,7 @@ namespace TrabajoEnEquipo
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.Color.Pink;
 			this.ClientSize = new System.Drawing.Size(589, 565);
 			this.Controls.Add(this.txtpromediogral);
 			this.Controls.Add(this.lblprogral);

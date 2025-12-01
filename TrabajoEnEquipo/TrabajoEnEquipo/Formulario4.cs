@@ -44,6 +44,8 @@ namespace TrabajoEnEquipo
 				MessageBox.Show("Escoja su asignatura");
 			else if(cboespecialidad.Text=="")
 				MessageBox.Show("Escoja su especialidad");
+			else if(cbosemestre.SelectedIndex==-1)
+				MessageBox.Show("Diga su semestre");
 			else{
 				
 				string submo = cboasignatura.Text;
@@ -100,7 +102,9 @@ namespace TrabajoEnEquipo
 		
 		void BtnsalirClick(object sender, EventArgs e)
 		{
-			Close();
+			FormB Menu = new FormB();
+			Menu.Show();
+			this.Hide();
 		}
 	}
 }

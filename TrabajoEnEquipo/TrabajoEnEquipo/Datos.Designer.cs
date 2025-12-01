@@ -59,6 +59,7 @@ namespace TrabajoEnEquipo
 			this.cboEspecialidad = new System.Windows.Forms.ComboBox();
 			this.btmRegistrar = new System.Windows.Forms.Button();
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
+			this.button1 = new System.Windows.Forms.Button();
 			this.groupBox1.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -306,12 +307,25 @@ namespace TrabajoEnEquipo
 			this.groupBox1.TabIndex = 24;
 			this.groupBox1.TabStop = false;
 			// 
+			// button1
+			// 
+			this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+			this.button1.Font = new System.Drawing.Font("Imprint MT Shadow", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button1.Location = new System.Drawing.Point(210, 252);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(111, 31);
+			this.button1.TabIndex = 25;
+			this.button1.Text = "Regresar";
+			this.button1.UseVisualStyleBackColor = false;
+			this.button1.Click += new System.EventHandler(this.Button1Click);
+			// 
 			// Datos
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
 			this.ClientSize = new System.Drawing.Size(487, 292);
+			this.Controls.Add(this.button1);
 			this.Controls.Add(this.groupBox1);
 			this.Controls.Add(this.btmRegistrar);
 			this.Controls.Add(this.label1);
@@ -322,6 +336,7 @@ namespace TrabajoEnEquipo
 			this.groupBox1.PerformLayout();
 			this.ResumeLayout(false);
 		}
+		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.GroupBox groupBox1;
 		private System.Windows.Forms.Button btmRegistrar;
 		private System.Windows.Forms.ComboBox cboEspecialidad;

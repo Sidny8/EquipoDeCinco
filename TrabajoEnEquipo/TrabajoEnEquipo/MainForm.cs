@@ -60,7 +60,9 @@ namespace TrabajoEnEquipo
 				MessageBox.Show("Escriba la contraseña");
 			}
 			else if(txtUser.Text=="Admin" && txtPass.Text=="123"){
-				MessageBox.Show("Finjamos que cambiamos de pestaña");
+				FormB Botones = new FormB();
+				Botones.Show();
+				this.Hide();
 			}else{
 				MessageBox.Show("Contraseña o usuario incorrectas");
 			}
