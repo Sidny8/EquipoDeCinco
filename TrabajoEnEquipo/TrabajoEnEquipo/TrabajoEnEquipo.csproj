@@ -47,18 +47,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-
-
-
     <Compile Include="Datos.cs" />
     <Compile Include="Datos.Designer.cs">
       <DependentUpon>Datos.cs</DependentUpon>
     </Compile>
-
+    <Compile Include="Form1.cs" />
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formulario4.cs" />
     <Compile Include="Formulario4.Designer.cs">
       <DependentUpon>Formulario4.cs</DependentUpon>
-   </Compile>
+    </Compile>
     <Compile Include="FormE.cs" />
     <Compile Include="FormE.Designer.cs">
       <DependentUpon>FormE.cs</DependentUpon>
@@ -75,13 +75,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-
-
-
     <EmbeddedResource Include="Datos.resx">
       <DependentUpon>Datos.cs</DependentUpon>
     </EmbeddedResource>
-
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formulario4.resx">
       <DependentUpon>Formulario4.cs</DependentUpon>
     </EmbeddedResource>

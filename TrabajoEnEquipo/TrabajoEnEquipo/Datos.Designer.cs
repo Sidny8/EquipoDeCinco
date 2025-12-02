@@ -79,9 +79,9 @@ namespace TrabajoEnEquipo
 			this.label2.BackColor = System.Drawing.Color.PaleTurquoise;
 			this.label2.Location = new System.Drawing.Point(6, 32);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(54, 21);
+			this.label2.Size = new System.Drawing.Size(55, 21);
 			this.label2.TabIndex = 1;
-			this.label2.Text = "Nombre:";
+			this.label2.Text = "Nombre completo:";
 			// 
 			// label3
 			// 
@@ -90,7 +90,7 @@ namespace TrabajoEnEquipo
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(55, 23);
 			this.label3.TabIndex = 2;
-			this.label3.Text = "Apellidos";
+			this.label3.Text = "Escuela";
 			this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// txtName

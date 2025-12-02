@@ -17,9 +17,6 @@ namespace TrabajoEnEquipo
 	/// </summary>
 	public partial class Datos : Form
 	{
-		public string Nombre;
-		public string Semestre;
-		public string Especialidad;
 		public Datos()
 		{
 			//
@@ -45,7 +42,7 @@ namespace TrabajoEnEquipo
 			else if(txtName.Text=="")
 				MessageBox.Show("Diga el nombre||");
 			else if(txtApellido.Text=="")
-				MessageBox.Show("Oblgatorio su apellido ||");
+				MessageBox.Show("Oblgatorio su escuela ||");
 			else if(txtCorreo.Text=="")
 				MessageBox.Show("Obligatorio su correo ||");
 			else if(txtTelefono.Text=="0" || txtTelefono.Text=="")
@@ -53,6 +50,13 @@ namespace TrabajoEnEquipo
 			else if(txtDomicilia.Text=="0" || txtTelefono.Text=="")
 				MessageBox.Show("Diga su dirreccion ||");
 			else{
+				
+				string name = txtName.Text;
+				string tele = txtTelefono.Text;
+				string semes = cboSemestre.Text;
+				string espe = cboEspecialidad.Text;
+				string gm = txtCorreo.Text;
+				
 				MessageBox.Show("Guardado exitosamente ||");
 				txtAltura.Text="";
 				txtApellido.Text="";
@@ -64,6 +68,18 @@ namespace TrabajoEnEquipo
 				cboColonia.SelectedIndex=-1;
 				cboEspecialidad.SelectedIndex=-1;
 				cboSemestre.SelectedIndex=-1;
+				
+				Form1 dat = new Form1();
+				
+				
+				
+				dat.Nombre = name;
+				dat.telefono= tele;
+				dat.Semestre= semes;
+				dat.espescialidad= espe;
+				dat.gmail= gm;
+				dat.Show();
+				this.Hide();
 			
 			}
 		}
@@ -74,5 +90,7 @@ namespace TrabajoEnEquipo
 			Menu.Show();
 			this.Hide();
 		}
+		
+		
 	}
 }
