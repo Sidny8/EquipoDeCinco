@@ -46,5 +46,12 @@ namespace TrabajoEnEquipo
 		
 		}
 		
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			FormB B = new FormB();
+			B.Show();
+			this.Hide();
+		}
 	}
 }

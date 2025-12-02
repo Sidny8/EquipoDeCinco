@@ -46,6 +46,7 @@ namespace TrabajoEnEquipo
 			this.lblTele = new System.Windows.Forms.Label();
 			this.lblCorre = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
+			this.button1 = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -133,12 +134,24 @@ namespace TrabajoEnEquipo
 			this.label3.Size = new System.Drawing.Size(191, 29);
 			this.label3.TabIndex = 10;
 			// 
+			// button1
+			// 
+			this.button1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+			this.button1.Location = new System.Drawing.Point(247, 208);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(109, 41);
+			this.button1.TabIndex = 12;
+			this.button1.Text = "Menu Principal";
+			this.button1.UseVisualStyleBackColor = false;
+			this.button1.Click += new System.EventHandler(this.Button1Click);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.ActiveCaption;
 			this.ClientSize = new System.Drawing.Size(388, 261);
+			this.Controls.Add(this.button1);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.lblCorre);
 			this.Controls.Add(this.lblTele);
@@ -154,6 +167,7 @@ namespace TrabajoEnEquipo
 			this.Load += new System.EventHandler(this.Form1Load);
 			this.ResumeLayout(false);
 		}
+		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label lblCorre;
 		private System.Windows.Forms.Label lblTele;
